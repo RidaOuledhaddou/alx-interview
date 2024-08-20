@@ -1,13 +1,9 @@
 #!/usr/bin/python3
-"""
-	Making change O(n)
-"""
+"""Making change O(n)"""
 
 
 def makeChange(coins, total):
-    """	
-	Clasic Bottom-Up dynamic programming
-    """
+    """Clasic Bottom-Up dynamic programming"""
     temp_value = 0
     coins.sort(reverse=True)
 
